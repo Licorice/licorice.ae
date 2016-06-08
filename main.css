@@ -7,8 +7,9 @@ header .row, footer .row {
   align-items: center;
 }
 header div {
-	background: rgb(60,60,60);
+	background: rgb(40,40,40);
 	color:white;
+
 
 }
 header div a{
@@ -16,8 +17,9 @@ header div a{
 	text-decoration: none;
 }
 header h1 {
-	margin: 0px 5px;
+	margin: 2px 5px;
 	display: inline;
+	font-family: 'Fjalla One', sans-serif;
 }
 header nav ul{
 	display: inline;
@@ -25,6 +27,9 @@ header nav ul{
 header nav ul li {
 	display: inline-block;
 	margin: 0px;
-	padding: 3px 15px;
+	padding: 3px 18px;
 		background: rgb(20,20,20);
 	}
+.jumbotron {
+	padding: 0px;
+}
