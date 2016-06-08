@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	background: black;
+}
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+header div {
+	background: rgb(60,60,60);
+	color:white;
+
+}
+header div a{
+	color: white;
+	text-decoration: none;
+}
+header h1 {
+	margin: 0px 5px;
+	display: inline;
+}
+header nav ul{
+	display: inline;
+}
+header nav ul li {
+	display: inline-block;
+	margin: 0px;
+	padding: 3px 15px;
+		background: rgb(20,20,20);
+	}
