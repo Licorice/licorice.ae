@@ -2,13 +2,16 @@ body {
 	margin: 0;
 	background: black;
 }
-header .row, footer .row {
+header .row, 
+footer .row {
   display: flex;
   align-items: center;
 }
 header div {
 	background: rgb(40,40,40);
 	color:white;
+	font-size: 20px;
+	height: 40px;
 
 
 }
@@ -16,7 +19,7 @@ header div a{
 	color: white;
 	text-decoration: none;
 }
-header h1 {
+header h2 {
 	margin: 2px 5px;
 	display: inline;
 	font-family: 'Fjalla One', sans-serif;
@@ -27,9 +30,11 @@ header nav ul{
 header nav ul li {
 	display: inline-block;
 	margin: 0px;
-	padding: 3px 18px;
+	padding: 3px 10px;
 		background: rgb(20,20,20);
+
 	}
 .jumbotron {
 	padding: 0px;
+	margin: 0px;
 }
