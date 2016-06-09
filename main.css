@@ -35,11 +35,7 @@ header h3 {
 .jumbotron {
 	padding: 0px;
 	margin: 0px;
-	  height: 50%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+	height: 50%;
 }
 /* Initial menu */
 .menu {
