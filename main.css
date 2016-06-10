@@ -31,11 +31,12 @@ header h2 {
 }
 header h3 {
 	margin: 0px;
+	padding: 0px;
 }
 .jumbotron {
 	padding: 0px;
 	margin: 0px;
-	height: 50%;
+	height: 100%;
 }
 /* Initial menu */
 .menu {
@@ -90,4 +91,8 @@ header h3 {
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
+}
+.fill { 
+    min-height: 90%;
+    height: 90%;
 }
