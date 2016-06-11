@@ -46,14 +46,22 @@ header h3 {
   position: fixed;
   width: 285px;
 }
-.icon-close {
+.menu2 {
+  background: #202024;
+  left: 1920px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  color: rgb(120,120,120);;
+}
+.icon-close, .icon-close2 {
   cursor: pointer;
   padding-left: 10px;
   padding-top: 10px;
   background: rgb(20,20,20);
 }
 
-.icon-menu {
+.icon-menu, .icon-menu2 {
   color: #fff;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
@@ -63,6 +71,7 @@ header h3 {
   padding-top: 25px;
   text-decoration: none;
   text-transform: uppercase;
+
 
 }
 
